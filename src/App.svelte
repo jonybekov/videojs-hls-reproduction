@@ -2,6 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import VideoPlayer from "./VideoPlayer.svelte"
 </script>
 
 <main>
@@ -16,7 +17,8 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <Counter />
+    <VideoPlayer />
+    <!-- <Counter /> -->
   </div>
 
   <p>

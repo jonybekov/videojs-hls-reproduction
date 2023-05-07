@@ -12,5 +12,10 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
     "svelte": "^3.58.0",
     "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^4.0.3",
+    "rollup-plugin-string": "^3.0.0",
+    "video.js": "^8.3.0"
   }
 }
