@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <h1>Video.js HLS Player</h1>
+  <h1>Video.js (7.10.2) HLS Player</h1>
 
   <div class="card">
     <VideoPlayer />
