@@ -11,7 +11,7 @@ const options = {
   fluid: false,
   textTrackSettings: true,
   vhs: {
-    overrideNative: true,
+    overrideNative: false,
   },
   html5: {
     hlsjsConfig: {
