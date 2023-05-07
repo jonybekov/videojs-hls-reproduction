@@ -16,6 +16,6 @@
   "dependencies": {
     "@vitejs/plugin-legacy": "^4.0.3",
     "rollup-plugin-string": "^3.0.0",
-    "video.js": "^7.10.2"
+    "video.js": "^7.10.0"
   }
 }
