@@ -2,7 +2,7 @@
 import {onMount} from "svelte"
 import videojs from "video.js"
 
-let src = "https://cdn.voxe.tv/s3/movies/shazam-fury-of-the-gods-903115/master.m3u8" 
+let src = "https://cdn.voxe.tv/s3/movies/Harry.Potter.and.the.Order.of.the.Phoenix.2007.BDrip.720p.x264.Rus.Eng/master.m3u8" 
 let player;
 
 const options = {
@@ -24,7 +24,7 @@ onMount(() => {
   player = videojs('#video', options);
 
   player.src({
-    src: "https://cdn.voxe.tv/s3/movies/shazam-fury-of-the-gods-903115/master.m3u8",
+    src: src,
     type: "application/x-mpegURL",
   })
 })
