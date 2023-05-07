@@ -38,6 +38,9 @@ $: {
 
 </script>
 
+<label>
+Source:
 <input bind:value={src} />
+</label>
 <video id="video" class="video-js vjs-theme-city vjs-big-play-centered" width="800" height="800" controls />
 
